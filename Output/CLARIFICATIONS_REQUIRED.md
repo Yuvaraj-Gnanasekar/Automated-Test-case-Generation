@@ -30,6 +30,8 @@ Based on `Requirements/Agri details.xlsx`, the following critical clarifications
 
 8. **Checklist enforcement moment needs confirmation**
    - Requirement states save is allowed only when checklist is complete, but does not specify whether validation is triggered on Save only or also on Submit.
+   - **Assumption used in generated test cases:** checklist validation is enforced at both Save and Submit to prevent incomplete progression.
+   - **Priority:** High, because this decision impacts workflow progression, validation, and end-to-end scenario outcomes.
 
 9. **Dropdown LOV governance details are missing**
    - LOV source and whether options are configurable at runtime is not mentioned.
